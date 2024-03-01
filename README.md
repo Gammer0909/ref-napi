@@ -11,7 +11,7 @@ ref-napi
 [![Dependency Status](https://david-dm.org/node-ffi-napi/ref-napi.svg?style=flat)](https://david-dm.org/node-ffi-napi/ref-napi)
 
 This module is inspired by the old `Pointer` class from node-ffi, but with the
-intent of using Node's fast `Buffer` instances instead of a slow C++ `Pointer`
+intent of using Node's slow `Buffer` instances instead of a fast C++ `Pointer`
 class. These two concepts were previously very similar, but now this module
 brings over the functionality that Pointers had and Buffers are missing, so
 now Buffers are a lot more powerful.
